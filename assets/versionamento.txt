@@ -1,0 +1,122 @@
+21/04/24
+estudando css
+analizando folder de prospecção
+Projetando como começar
+criando html básico
+movimentando cards do milanote
+
+22/04/24
+inserindo link de reset
+criando section
+criando aside
+
+23/04/24
+criando style.css
+formantando header
+ficando e colocando cores no header e titulos
+criando o asside, ficando na lateral esquerda
+fixando header
+configurando hello
+
+24/04/24
+corrigindo conteúdo que não ficou centralizado
+removendo scrol
+
+25/04/24
+
+26/04/24
+estudando classes e inserindo
+
+27/04/24 
+estudando modelo de caixas
+modificando html para corrigir as tgs semanticas não utilizadas
+
+28/04/24
+finalizando o html
+refazendo o style
+
+29/04/24
+refazendo o header
+finalizado seçao hello
+finalizando quado do perfil dificuldade em centralizar os itens e cor do botão com hover
+
+30/04/24
+finalizando seçao about
+finalizando seção Carrer
+Finalizando seçao service dificuldade em criar as bordas
+finalizando skills 
+
+01/05/24 
+finalizando grid imagens
+criando seçao com rolagem lateral, dificuldades testemunho
+finalizado testemunho
+corrigido margem lateral para padding
+
+02/05/24
+fixado foto de perfil 
+criado footer
+criando formulário
+
+03/05/24 
+terminando formulário
+configurando botão do formulário
+aplicando efeito nas imagens das redes sociais
+ajustando padding do início da página para evitar cortes nos textos
+finalizando...
+
+06/05/24
+adicionando margem top para o scroll ao usar os link de navegação (scroll-margin-top: 170px;)
+Corrigindo formulário, aplicando modelo usado por Wesley por ser mais prático
+corrigindo padding do local de preenchimento do formulário
+
+08/05/2024
+ajustando padding top para ajustia a altura do titulo
+
+09/05/24
+Devolvendo as imagens originais do portfólio.
+linkando o botão hire me do aside com o formulário
+ajustando altura do cabeçalho do formulário
+ajustando padding das linhas do input.
+compactando arquivo e enviado para Wesley
+
+10/05/24
+Removendo divs que não eram necessárias
+aplicando classes nas seções
+aplicando button no botão do formulário
+removendo o margin de várias classe e aplicanco no seletro section.
+
+13/05/24
+renomeado as pastas
+adicionando espaço no fim da página
+
+16/05/24
+Enviado arquivo para Wesley
+
+17/05/24
+Feito as correçoes indicadas
+
+29/05/24
+aplicando mediaqueries no header, não funionou conforme desejado
+
+01/06/24
+aplicando mediaqueries no header, não funcionou, aplicando no restante do site
+
+02/06/24
+Corrigindo o problema que impedia o mediaqueries no header
+finalizando versão mobile do header e do corpo do site
+
+03/06/24
+finalizando media do reader e main do site
+criando botão de menu
+
+
+04/06/24
+finalizado criaçao de botão menu
+verificando codigo para deixar mais clean
+corrigindo tamanho da figure do portifólio
+corrigindo tamanho do footer
+
+17/06/24
+Ajustando footer e scrol do menu mobile
+ajustando padding do testemunhal 
+
