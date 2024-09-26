@@ -36,5 +36,5 @@ formulario.addEventListener('submit', function(e) {
 });
 
 formulario.addEventListener('reset', function() {
-    alert('Voce limpou o formulário!');
+    alert('Você limpou o formulário!');
 });
