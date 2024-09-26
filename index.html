@@ -11,25 +11,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header id="teste">
         <div class="cabecalho__mobile">
-            <input class="container__botao" type="checkbox"  id="menu-mobile">
-                <label for="menu-mobile">
-                    <img src="assets/images/logos/Menu.png" class="cabecalho-menu-hamburger">
-                    <nav class="cabecalho-mobile__lista cabecalho-menu container">
-                        <a class="cabecalho-menu__link" href="#hello2">Hello</a>
-                        <a class="cabecalho-menu__link" href="#about">About</a>
-                        <a class="cabecalho-menu__link" href="#career">Career</a>
-                        <a class="cabecalho-menu__link" href="#services">Services</a>
-                        <a class="cabecalho-menu__link" href="#skills">Skills</a>
-                        <a class="cabecalho-menu__link" href="#portfolio">Portfolio</a>
-                        <a class="cabecalho-menu__link" href="#testimonial">Testimonial</a>
-                        <a class="cabecalho-menu__link" href="#brands">Brands</a>
-                        <a class="cabecalho-menu__link" href="#contact">Contact</a>
-                    </nav>              
-                </label>
-
-            </div>
+            <label>
+                <img id="hamburguer" src="assets/images/logos/Menu.png" class="cabecalho-menu-hamburger">
+                <nav id="fechar" class="cabecalho-mobile__lista cabecalho-menu container">
+                    <a class="cabecalho-menu__link" href="#hello2">Hello</a>
+                    <a class="cabecalho-menu__link" href="#about">About</a>
+                    <a class="cabecalho-menu__link" href="#career">Career</a>
+                    <a class="cabecalho-menu__link" href="#services">Services</a>
+                    <a class="cabecalho-menu__link" href="#skills">Skills</a>
+                    <a class="cabecalho-menu__link" href="#portfolio">Portfolio</a>
+                    <a class="cabecalho-menu__link" href="#testimonial">Testimonial</a>
+                    <a class="cabecalho-menu__link" href="#brands">Brands</a>
+                    <a class="cabecalho-menu__link" href="#contact">Contact</a>
+                </nav>              
+            </label>
+        </div>
     </header>
     
     <main id="hello2" class="container">
@@ -266,29 +264,29 @@
         <section id="contact" class="formulario">
             <span class="rotulo-secao">Contact</span>
 
-            <form action="#">
+            <form id="formulario" action="#">
                 <div class="formulario-texto">
                     <label>
                         <p>Full name</p>
-                        <input type="text" name="nome">
+                        <input id="name" type="text" name="nome" required minlength="5">
                     </label>
 
                     <label>
                         <p>Email</p>
-                        <input type="email" name="email">
+                        <input id="email" type="email" name="email" required>
                     </label>
 
                     <label>
                         <p>Phone</p>
-                        <input type="tel" name="telefone">
+                        <input id="phone" type="tel" name="telefone" required minlength="11" maxlength="11">
                     </label>
 
                     <label>
                         <p>Message</p>
-                        <input type="text" name="mensagem">
+                        <input id="mensagem" type="text" name="mensagem" required maxlength="100">
                     </label>
                 </div>
-
+                <button class="contrate-me botao-formulario" type="reset">Limpar</button>
                 <button class="contrate-me botao-formulario">Hire me</button>       
             </form>
         </section>
@@ -297,5 +295,7 @@
     <footer>
         <p>Edivan Cardoso - Todos os direitos reservados @ 2024</p>
     </footer>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

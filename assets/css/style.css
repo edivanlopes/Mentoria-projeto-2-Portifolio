@@ -317,10 +317,6 @@ footer p {
     display: none;
 }
 
-.container__botao {
-    display: none;
-}
-
 @media (max-width:600px) {
     .container {
             width: 90vw;
@@ -332,6 +328,11 @@ footer p {
             position: fixed;
             top: 0;
             height: 50px;
+        }
+
+        header.aberto .cabecalho-mobile__lista {
+            visibility: visible;
+            opacity: 1;
         }
     
         .cabecalho-menu,
@@ -350,11 +351,6 @@ footer p {
             position: absolute;
             top: 100%;
             width: 100%;
-        }
-    
-        .container__botao:checked~label .cabecalho-mobile__lista {
-            opacity: 1;
-            visibility: visible;
         }
 
         .cabecalho-mobile__lista {
